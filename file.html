@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inline and Embedded CSS</title>
+    <style>
+        /*Universal Selector*/
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /*ID selector*/
+        #container {
+            width: 1140px;
+            min-height: 800px;
+            margin: auto auto;
+
+        }
+
+        /*Class Selector*/
+        .green {
+            color: #00ff00;
+            font-size: 20px;
+            border-bottom: 3px solid #ccee99;
+        }
+
+        .red {
+            color: #ff0000;
+            font-size: 30px;
+            border: 4px dotted #3f5f10;
+        }
+
+        /*type selector*/
+        body {
+            background-color: #9b8f8f;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h2 style="font-size: 100px; color:burlywood">My heading</h2>
+        <!--Inline style-->
+        <p class="green">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, sunt fugit atque vitae quam ipsam rem, sed
+            ut cum omnis assumenda iure vel, perspiciatis quis ad! Delectus doloribus dicta enim!
+        </p>
+        <p class="red">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eum asperiores, optio sapiente quisquam
+            consequuntur accusamus quidem repudiandae rem dicta maxime provident obcaecati placeat consequatur debitis
+            ut facere! Esse, corrupti?
+        </p>
+    </div>
+    <!--Container close-->
+</body>
+
+</html>

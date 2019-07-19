@@ -1,0 +1,31 @@
+ /*Universal Selector*/
+ * {
+    margin: 0;
+    padding: 0;
+}
+
+/*ID selector*/
+#container {
+    width: 1140px;
+    min-height: 800px;
+    margin: auto auto;
+
+}
+
+/*Class Selector*/
+.green {
+    color: #00ff00;
+    font-size: 20px;
+    border-bottom: 3px solid #ccee99;
+}
+
+.red {
+    color: #ff0000;
+    font-size: 30px;
+    border: 4px dotted #3f5f10;
+}
+
+/*type selector*/
+body {
+    background-color: #9b8f8f;
+}
