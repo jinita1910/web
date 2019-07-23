@@ -22,3 +22,45 @@ body{
 .col75{width: 75%;float:left;min-height: 50px;}
 .col25{width: 25%;float: left;min-height: 50px;}
 .clear{clear: both;}
+.banner{
+    background-image: url("../images/ban.jpg");
+    width: 1140px;
+    min-height: 150px;
+    border-radius: 0px 100px 0px 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.topmenu{
+    width: 1140px;
+    min-height: 50px;
+    background-color: aquamarine;
+}
+/*descendant selector*/
+.topmenu nav {
+    float: right;
+}
+.topmenu nav ul{
+    list-style-type: none;
+    margin-top: 15px;
+}
+.topmenu nav ul li{
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+    margin-right: 15px;
+}
+/*pseudo class*/
+.topmenu nav ul li:hover{
+    background-color: rgb(145, 143, 70);
+    opacity: 0.5;
+
+}
+.topmenu nav ul li a{
+    color:rgb(80, 12, 12);
+    text-decoration: none;
+    font-variant: small-caps;
+}
+.topmenu nav ul li a:hover{
+    text-decoration: overline;
+    color: #ff0010;
+}
