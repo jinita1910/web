@@ -1,4 +1,16 @@
-var a = 10;
+/*var a = 10;
 b = 20
-c = a + b
-getElementById("cal").innerHTML = ("The sum of " + a + " and " + b + " is " + c);
+let c = a + b
+document.write("The sum of " + a + " and " + b + " is " + c);*/
+
+function greeting()
+{
+    alert("Good Morning");
+}
+
+function userName()
+{
+    var name;
+    name=prompt("Enter your name.");
+    document.getElementById("Name").innerHTML="Welcome, "+name;
+}
