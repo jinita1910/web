@@ -65,3 +65,18 @@ function factorial()
         document.getElementById("factorial").innerHTML= fact+"<br/>";
     }
 }
+function validation()
+{
+    
+    var username,password;
+    //retrieve data from the form
+    username=loginForm.name.value;
+    password=loginForm.password.value;
+    //check if all fields are blank
+    if(username="" && password="")
+    {
+        document.getElementById("error").innerHTML="All fields are required";
+        return false;
+    }
+    return
+}

@@ -9,6 +9,23 @@
 </head>
 
 <body onload="userName()">
+    <table border=1 width=800 cellpadding=8 cellspacing=8><tr>
+        <script>
+            for(i=1;i<=100;i++)
+           {
+                if(i%10==0)
+               {
+                       document.write("<td>"+i+"</td></tr><tr>");
+               }
+              else{
+             document.write("<td>"+i+"</td>");
+              }
+
+    }
+            
+            </script>
+            </tr>
+            </table>
     <button onclick="greeting()"> Greeting</button>
     <script src="js/external.js"></script>
     <div id="Name" style="float: right"></div>
@@ -18,6 +35,7 @@
     <div id="mulTable"></div>
     <button onclick="factorial()">Factorial</button>
     <div id="factorial"></div>
+    
 
 </body>
 
