@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form name="LoginForm" method="POST" action="" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Login</legend>
+
+            <input type="text" name="name" placeholder="Username" id="fname" /><br />
+            <input type="password" name="password" placeholder="Password" id="ppassword" /><br />
+            <input type="submit" name="submit" value="Login" onclick="check()" />
+        </fieldset>
+
+    </form>
+  
+    <script rel="text/javascript">
+        function check() {
+            var fullname,password;
+            fullname = document.getElementById("fname").value;
+            password = document.getElementById("ppassword").value;
+            if (fullname == "" && password == "") {
+                document.getElementById("error").innerHTML = "Enter your username and password";
+            }
+            else {
+                alert("login success");
+                document.getElementById("error").innerHTML = "Enter your username and password";
+            }
+        }
+    </script>
+      <div id="error">okkk</div>
+</body>
+
+</html>
